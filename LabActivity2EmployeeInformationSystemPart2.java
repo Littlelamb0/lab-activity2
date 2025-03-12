@@ -24,9 +24,6 @@ public class EmployeeInfo {
         System.out.print("Enter employee hourly wage: ");
         double hourlyWage = scanner.nextDouble();
 
-        // Make the full name and last name add and do the uppercase
-        String fullName = (lastName + " " + firstName).toUpperCase();
-
         // Compute the employee's years to retire in 65 years
         int yearsToRetirement = Math.abs(65 - age);
 
